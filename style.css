@@ -56,8 +56,8 @@ a:hover {
 
 }
 
-.bottom-margin-30px {
-  margin-bottom: 30px;
+.padding-20px {
+  padding: 20px;
 }
 
 .btn-blue {
@@ -104,12 +104,8 @@ a:hover {
   padding: 30% 0%;
 }
 
-.list-vertical > i {
-  color: white;
-}
-
-.list-vertical > i:hover {
-  color: #2badff;
+.list-vertical:hover {
+  color:white;
 }
 
 .list-inline {
@@ -120,7 +116,7 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   margin: 0 40px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 
