@@ -17,6 +17,7 @@ h2 {
 }
 
 h3 {
+  text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: #666560;
   font-weight: 500;
@@ -27,6 +28,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: #96958E;
   font-size: 15px;
+  text-align: justify;
 }
 
 a {
@@ -37,6 +39,21 @@ a {
 
 a:hover {
   color: #2badff;
+}
+
+
+#sidebar {
+  position: fixed;
+  width: 10%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #999897;
+}
+
+#page-content {
+  width: auto;
+
 }
 
 .bottom-margin-30px {
@@ -57,17 +74,42 @@ a:hover {
   color: white;
 }
 
+.color-white {
+  color:white;
+}
+
 .text-center {
   text-align: center;
 }
 
 .box-white {
   background-color: white;
-  width: 500px;
+  width: 50%;
   margin: 20px auto;
   padding: 30px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
+}
+
+.list-vertical {
+  padding-left: 5%;
+  list-style: none;
+}
+
+.list-vertical > li {
+  text-align: center;
+  margin: 0% 10%px;
+  font-size: 20px;
+  color: white;
+  padding: 30% 0%;
+}
+
+.list-vertical > i {
+  color: white;
+}
+
+.list-vertical > i:hover {
+  color: #2badff;
 }
 
 .list-inline {
@@ -81,9 +123,11 @@ a:hover {
   font-size: 20px;
 }
 
+
 #social-links {
   padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 #social-links li {
